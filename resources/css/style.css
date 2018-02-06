@@ -1,0 +1,77 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: rgba(130, 105, 141, 0.7);
+}
+
+nav h2 {
+  display: inline-block;
+  margin-left:1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 3rem;
+}
+
+#flexnav {
+    display: flex;
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+  .navbar {
+    border: 0;
+  }
+
+.navbar-default {
+  background: rgb(100, 31, 67);
+  color: rgb(255, 245, 239);
+}
+
+.navbar-right {
+  margin-right: 15px;
+}
+
+
+.border-right {
+  border-right: 1px solid rgb(255, 245, 239);
+  padding-right: 1rem;
+}
+
+.border-left {
+  padding-left: 1rem;
+}
+
+.jumbotron {
+  margin-top: 6rem;
+  padding-bottom: 130px;
+  padding-top: 65px;
+  height: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+.jumbotron p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#boldstyle {
+  font-weight: 600;
+  margin-left: 5rem;
+}
+
+#borderline {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: 50%;
+  border-bottom: 1px solid rgb(100, 31, 67);
+}
+
+
+footer .navbar {
+  padding-top: 0.75rem;
+  min-height: 0;
+}

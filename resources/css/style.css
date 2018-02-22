@@ -46,28 +46,39 @@ nav h2 {
 
 .jumbotron {
   margin-top: 6rem;
-  padding-bottom: 130px;
+  padding-bottom: 240px;
   padding-top: 65px;
   max-height: 100%;
   font-family: "Raleway", sans-serif;
 }
 
+.motto {
+  text-align: center;
+}
+
 .jumbotron p {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 1rem;
 }
 
 #boldstyle {
   font-weight: 600;
-  margin-left: 3rem;
+  margin-left: 12rem;
+  margin-bottom: 1.5rem;
+
 }
 
 #borderline {
-  margin-left: 2rem;
-  margin-bottom: 1rem;
+  margin-left: 17rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
   width: 50%;
   border-bottom: 1px solid rgb(100, 31, 67);
+}
+
+.articlelink {
+  font-size: 1rem;
 }
 
 

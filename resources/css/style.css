@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background: rgba(130, 105, 141, 0.7);
+   background-color: rgba(22, 34, 96, 0.8);
+   background-color: rgba(22, 34, 96, 0.3);
 }
 
 nav h2 {
@@ -15,20 +16,59 @@ nav h2 {
   font-size: 3rem;
 }
 
-#flexnav {
-    display: flex;
-    margin-left: 3rem;
-    margin-bottom: 0.5rem;
+.mobile {
+  display: none;
+}
+
+.row {
+ margin-left: 0;
+ margin-right: 0;
+}
+
+
+.imgborder {
+  /*border: 2px solid rgba(130, 105, 141, 0.1);*/
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.col-lg-6 {
+  padding-left: 0;
 }
 
 .navbar {
     border: 0;
   }
 
-.navbar-default {
-  background: rgb(100, 31, 67);
-  color: rgb(255, 245, 239);
+.container {
+  padding-left: 0;
+  padding-right: 0;
 }
+
+#navbarbg {
+  background-color: rgba(130, 105, 141, 0.6);
+  background-color: rgba(22, 34, 96, 0.3);
+
+}
+
+.navbg {
+  background-color: rgb(22, 34, 96);
+  background-color: rgba(22, 34, 96, 0.8);
+}
+
+
+.navbar-default {
+  background-color: #fff;
+  width: 97%;
+
+}
+
+.navlogo {
+
+}
+
 
 .navbar-right {
   margin-right: 15px;
@@ -45,11 +85,12 @@ nav h2 {
 }
 
 .jumbotron {
-  margin-top: 6rem;
-  padding-bottom: 240px;
+  margin-top: 15rem;
+  padding-bottom: 170px;
   padding-top: 65px;
   max-height: 100%;
   font-family: "Raleway", sans-serif;
+  width: 97%;
 }
 
 .motto {
@@ -70,7 +111,8 @@ nav h2 {
 }
 
 #borderline {
-  margin-left: 17rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2rem;
   margin-top: 1.5rem;
   width: 50%;
@@ -85,4 +127,12 @@ nav h2 {
 footer .navbar {
   padding-top: 0.75rem;
   min-height: 0;
+}
+
+footer .navbar-default {
+  background-color: #fff;
+}
+
+.footerbg {
+  background-color: rgba(130, 105, 141, 0.6);
 }

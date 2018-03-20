@@ -23,9 +23,6 @@
   }
 }
 
-@media only screen and (min-width: 880px) and (max-width: 1156px) {
-
-}
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .nav li {
@@ -53,5 +50,26 @@
 
   .col-xs-offset-3 {
     margin-left: 106px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 408px) {
+  .jumbotron {
+    margin-top: 11rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.2rem;
+  }
+
+  .jumbotron #boldstyle {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: auto;
+  }
+
+  .jumbotron .mediafont {
+    font-size: 1rem;
+    line-height: 2;
   }
 }

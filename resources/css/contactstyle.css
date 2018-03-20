@@ -1,10 +1,19 @@
+/*
+Body Styles
+*/
+
 html {
   font-size: 16px;
 }
 
 body {
   background-color: rgba(22, 34, 96, 0.8);
+  background-color: rgba(22, 34, 96, 0.3);
 }
+
+/*
+Header Styles
+*/
 
 nav h2 {
   display: inline-block;
@@ -15,27 +24,40 @@ nav h2 {
   font-size: 3rem;
 }
 
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .container {
   padding-left: 0;
   padding-right: 0;
 }
 
 .imgborder {
-  border: 2px solid rgba(130, 105, 141, 0.1);
   padding-left: 0;
   padding-right: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .navbar {
     border: 0;
   }
 
-  .navbar-default {
+.navbar-default {
     background-color: #fff;
+    width: 97%;
   }
 
 #navbarbg {
   background-color: rgba(130, 105, 141, 0.6);
+  background-color: rgba(22, 34, 96, 0.3);
+}
+
+.navbg {
+  background-color: rgba(22, 34, 96, 0.8);
 }
 
 .navbar-right {
@@ -52,21 +74,28 @@ nav h2 {
   padding-left: 1rem;
 }
 
+/*
+Content Styles
+*/
+
+
 #borderline {
-  margin-left: 17rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
   width: 50%;
   border-bottom: 1px solid rgb(100, 31, 67);
 }
 
 .jumbotron {
-  margin-top: 5rem;
+  margin-top: 12rem;
   padding-bottom: 50px;
   padding-top: 190px;
   max-height: 100%;
   font-family: "Raleway", sans-serif;
   text-align: center;
+  width: 97%;
 }
 
 .jumbotron h1 {
@@ -89,12 +118,4 @@ nav h2 {
 
 .marketinfo {
   padding-top: 2.8rem;
-}
-
-footer .navbar-default {
-  background-color: #fff;
-}
-
-.footerbg {
-  background-color: rgba(130, 105, 141, 0.6);
 }

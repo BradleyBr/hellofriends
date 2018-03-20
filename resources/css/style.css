@@ -1,11 +1,47 @@
+/*
+Body Styles
+*/
+
 html {
   font-size: 16px;
 }
 
 body {
-   background-color: rgba(22, 34, 96, 0.8);
    background-color: rgba(22, 34, 96, 0.3);
 }
+
+
+/*
+Bootstrap Edits
+*/
+
+.row {
+ margin-left: 0;
+ margin-right: 0;
+}
+
+.col-lg-6 {
+  padding-left: 0;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  width: 97%;
+}
+
+.navbar-right {
+  margin-right: 15px;
+}
+
+
+/*
+Header Styles
+*/
 
 nav h2 {
   display: inline-block;
@@ -20,32 +56,21 @@ nav h2 {
   display: none;
 }
 
-.row {
- margin-left: 0;
- margin-right: 0;
+.flexnav {
+  display: flex;
+  justify-content: space-around;
 }
 
-
 .imgborder {
-  /*border: 2px solid rgba(130, 105, 141, 0.1);*/
   padding-left: 0;
   padding-right: 0;
   margin-top: 2px;
   margin-bottom: 2px;
 }
 
-.col-lg-6 {
-  padding-left: 0;
-}
-
 .navbar {
     border: 0;
   }
-
-.container {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 #navbarbg {
   background-color: rgba(130, 105, 141, 0.6);
@@ -58,23 +83,6 @@ nav h2 {
   background-color: rgba(22, 34, 96, 0.8);
 }
 
-
-.navbar-default {
-  background-color: #fff;
-  width: 97%;
-
-}
-
-.navlogo {
-
-}
-
-
-.navbar-right {
-  margin-right: 15px;
-}
-
-
 .border-right {
   border-right: 1px solid rgb(255, 245, 239);
   padding-right: 1rem;
@@ -83,6 +91,10 @@ nav h2 {
 .border-left {
   padding-left: 1rem;
 }
+
+/*
+Content Styles
+*/
 
 .jumbotron {
   margin-top: 15rem;
@@ -105,8 +117,8 @@ nav h2 {
 
 #boldstyle {
   font-weight: 600;
-  margin-left: 12rem;
   margin-bottom: 1.5rem;
+  text-align: center;
 
 }
 
@@ -121,18 +133,4 @@ nav h2 {
 
 .articlelink {
   font-size: 1rem;
-}
-
-
-footer .navbar {
-  padding-top: 0.75rem;
-  min-height: 0;
-}
-
-footer .navbar-default {
-  background-color: #fff;
-}
-
-.footerbg {
-  background-color: rgba(130, 105, 141, 0.6);
 }

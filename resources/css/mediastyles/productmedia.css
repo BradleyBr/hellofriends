@@ -1,0 +1,139 @@
+/*
+Nav menu
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 880px) {
+  nav {
+    margin-top: 25px;
+  }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .nav li {
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .screentop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile .border-right {
+    border: none;
+    margin-right: 0;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .col-xs-offset-3 {
+    margin-left: 106px;
+  }
+}
+
+/*
+jumbotron
+*/
+
+@media only screen and (min-width: 1600px) {
+  .jumbotron {
+    padding-top: 140px;
+    padding-bottom: 110px;
+  }
+}
+
+@media only screen and (min-width: 1430px) and (max-width: 1599px) {
+  .jumbotron {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1429px) {
+  .jumbotron {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .jumbotron {
+    padding-top:75px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .jumbotron {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 408px) {
+  .jumbotron {
+    margin-top: 11rem;
+  }
+
+  .jumbotron .mediafont {
+    font-size: 1rem;
+    line-height: 2;
+  }
+}
+
+
+/*
+Changing of images from side of jumbotron to carousel at the top
+*/
+
+@media only screen and (max-width: 1199px) {
+  .desktopscreen {
+    display: none;
+  }
+  .smallscreen {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .carousel {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .carousel {
+    width: 85%;
+  }
+}
+
+/*
+jumbotron content
+*/
+
+@media only screen and (min-width: 450px) and (max-width: 750px) {
+  .boldfont {
+    font-size: 1.3rem;
+  }
+
+  .jumbotron ul li {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  .boldfont {
+    font-size: 1.2rem;
+  }
+
+  .jumbotron ul li {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-top: .6rem;
+  }
+}

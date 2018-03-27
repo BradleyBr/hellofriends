@@ -22,7 +22,7 @@ Bootstrap Edits
 .container {
   padding-left: 0;
   padding-right: 0;
-  line-height: 2.5;
+  line-height: 2;
 }
 
 .navbar {
@@ -54,7 +54,14 @@ nav h2 {
   margin-bottom: 2px;
 }
 
+.flexnav {
+  display: flex;
+  justify-content: space-around;
+}
 
+.mobile {
+  display: none;
+}
 
 #navbarbg {
     background-color: rgba(22, 34, 96, 0.3);
@@ -83,17 +90,18 @@ Content Styles
 */
 
 .jumbotron {
-  margin-top: 12rem;
+  margin-top: 15rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 65px;
-  padding-top: 180px;
+  padding-top: 200px;
   max-height: 100%;
   font-family: "Raleway", sans-serif;
   width: 97%;
 }
 
 .jumbotron h1 {
+  text-align: center;
   font-size: 3rem;
   padding-bottom: 1rem;
 }
@@ -108,8 +116,22 @@ Content Styles
   font-weight: 600;
 }
 
+.smallscreen {
+  display: none;
+}
 
 .cinnamonbuns, .purplecookies, .lemoncake {
 width: 18%;
 height: auto;
+}
+
+.flexcarousel {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }

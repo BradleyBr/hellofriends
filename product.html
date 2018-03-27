@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./resources/slick-1.8.0/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./resources/slick-1.8.0/slick/slick-theme.css"/>
     <link href="./resources/css/productstyle.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/mediastyles/productmedia.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
     integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
@@ -31,15 +32,22 @@
       <nav class="navbar navbar-default navbar-fixed-top container">
         <div id="navbarbg">
           <div class="row navlogo">
-            <img src="./resources/images/HELLOFRIENDSBAKERY_PROOF1.jpg" class="img-responsive col-lg-6 col-lg-offset-3 imgborder">
+            <img src="./resources/images/HELLOFRIENDSBAKERY_PROOF1.jpg" class="img-responsive col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 imgborder">
           </div>
           <div class="row navbg">
             <div class="col-lg-4 col-lg-offset-4">
-              <div id="flexnav">
-                <ul class="nav navbar-nav navbar-right">
+              <div class="flexnav">
+                <ul class="nav navbar-nav screentop">
                   <li class="nav-item border-right"><a class="nav-link" href="./index.html">About</a></li>
                   <li class="nav-item border-right border-left"><a class="nav-link" href="#">Baked Goods</a></li>
                   <li class="nav-item border-left"><a class="nav-link" href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="mobile">
+                <ul class="nav navbar-nav flexnav">
+                  <li class="nav-item"><a class="nav-link" href="./index.html"><i class="fas fa-home fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-basket fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="./contact.html"><i class="fas fa-envelope fa-2x"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -50,6 +58,13 @@
 
     <div class="jumbotron container">
       <h1>Some of our delicious products</h1>
+      <div class="flexcarousel">
+        <div class="imgcontainer smallscreen carousel container">
+          <img src="./resources/images/Cinnamonbuns.jpg" class="img-responsive">
+          <img src="./resources/images/Purplecookies.jpg" class="img-responsive">
+          <img src="./resources/images/Sunshinelemoncake.jpg" class="img-responsive">
+        </div>
+      </div>
       <ul>
         <li><span class="boldfont">Un'beet'able Chocolate Beet Cake</span> with Coconut Ganache, no butter or oil,
           no icing sugar. This product is also available wheat-free</li>
@@ -68,7 +83,7 @@
             <li><span class="boldfont">Turmeric Orange Ginger Cookies, Dipped in Chocolate</span></li>
             <li><span class="boldfont">Organic ingredients</span> when possible but always organic free-range eggs</li>
           </div>
-          <div class="imgcontainer">
+          <div class="imgcontainer desktopscreen">
             <img src="./resources/images/Cinnamonbuns.jpg" class="img-responsive cinnamonbuns">
             <img src="./resources/images/Purplecookies.jpg" class="img-responsive purplecookies">
             <img src="./resources/images/Sunshinelemoncake.jpg" class="img-responsive lemoncake">
@@ -76,22 +91,5 @@
         </div>
       </ul>
     </div>
-
-    <!-- <footer>
-      <nav class="navbar navbar-default navbar-fixed-bottom container">
-        <div class="footerbg">
-          <div class="row">
-            <div id="flexnav" class="col-lg-4 col-lg-offset-4">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item border-right"><a class="nav-link" href="./index.html">About</a></li>
-                <li class="nav-item border-right border-left"><a class="nav-link" href="#">Baked Goods</a></li>
-                <li class="nav-item border-left"><a class="nav-link" href="./contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </footer> -->
-
   </body>
 </html>

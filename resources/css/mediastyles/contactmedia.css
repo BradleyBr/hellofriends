@@ -11,7 +11,7 @@
   }
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1200px) {
+@media only screen and (min-width: 600px) and (max-width: 1429px) {
   .jumbotron {
     padding-top: 75px;
   }
@@ -31,6 +31,10 @@
 }
 
 @media only screen and (max-width: 599px) {
+  .jumbotron {
+    padding-top: 50px;
+  }
+
   .screentop {
     display: none;
   }
@@ -53,23 +57,16 @@
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 408px) {
+@media only screen and (min-width: 300px) and (max-width: 480px) {
   .jumbotron {
-    margin-top: 11rem;
+    margin-top: 10rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.4rem;
   }
 
   .jumbotron p {
-    font-size: 1.2rem;
-  }
-
-  .jumbotron #boldstyle {
-    text-align: center;
-    font-size: 1.3rem;
-    margin-left: auto;
-  }
-
-  .jumbotron .mediafont {
-    font-size: 1rem;
-    line-height: 2;
+    font-size: 1.1rem;
   }
 }
